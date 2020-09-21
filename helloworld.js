@@ -66,3 +66,8 @@ for (var i = 0; i < 100; i++)
     // if we got here, then i is odd.
     console.log(i + " is an odd number.");
 }
+
+var callback = function(){
+    console.log("Done !")
+}
+setTimeout(callback,5000)
