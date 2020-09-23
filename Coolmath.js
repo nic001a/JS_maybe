@@ -1,4 +1,3 @@
-var number;
 var v = " PRIME";
 var nv = " Not a PRIME";
 
@@ -19,7 +18,7 @@ function CheckPrime(number) {
     }
 }
 
-var index = CheckPrime(100);
+var index = CheckPrime(101);
 
 if (index == 0){
     console.log("not a prime")
